@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
-    <title>Document</title>
+    <title>TODO-list</title>
 </head>
 <body>
     <div class="container">
-        <input class="form-input" type="text" placeholder="Please enter text">
-        <button class="form-btn" onclick="Add()">search</button>
-        <div class="names"></div>
+        <form class="form">
+            <input class="form-input" type="text" placeholder="typing...">
+            <button class="submit-btn" type="submit">submit</button>
+        </form>
+
+        <ul class="list">
+            <li class="item">TODO-list</li>
+        </ul>
     </div>
     <script src="/index.js"></script>
 </body>

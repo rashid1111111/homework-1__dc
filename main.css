@@ -18,7 +18,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1100px;
+    max-width: 450px;
     padding-left: 50px;
     padding-right: 50px;
     margin-left: auto;
@@ -27,24 +27,52 @@ body {
     text-align: center;
 }
 
-.form-input {
-    display: inline-block;
-    width: 300px;
-    border: none;
-    padding: 10px;
-    background-color: rgb(228, 207, 207);
-    border-radius: 5px;
-    color: #444;
-    box-sizing: border-box;
+.form {
+    display: flex;
+    justify-content: space-between;
 }
 
-.form-btn {
-    display: inline-block;
-    border: none;
-    background-color: white;
-    padding: 8px;
-    border: 2px solid rgb(110, 110, 201);
-    border-radius: 5px;
-    color: rgb(110, 110, 201);
+.form-input {
+    display: block;
+    width: 350px;
     box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 187, 187);
+    padding: 10px;
+    color: rgb(138,117,117);
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid blue;
+    padding: 10px;
+    font-size: 18px;
+    color: blue;
+}
+
+.submit-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+li {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: rgb(231, 180, 122);
+    border-radius: 2px;
+    color: #888;
 }
